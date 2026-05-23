@@ -1,0 +1,6 @@
+@import url("./global.css");
+
+section-main{
+    display: flex;
+    justify-content: center;
+}
