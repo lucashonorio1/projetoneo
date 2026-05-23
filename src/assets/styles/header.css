@@ -1,0 +1,19 @@
+@import url(./global.css);
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    background-color: var(--color-Gray-4);
+}
+
+.navigation-header ul{
+    display: flex;
+    gap: 40px;
+    color: var(--color-White);
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--font-family-primary: "Alexandria", sans-serif;);
+}
+
