@@ -1,6 +1,61 @@
-@import url("./global.css");
+@import url("./src/assets/styles/global.css");
 
-section-main{
+
+main{
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: var(--color-Gray-4);
+    gap: 100px;
+    padding: 100px 350px;
+}
+
+.section-main{
+    display: flex;
+    gap: 20px;
+    padding: 57px 47px 76px;
+    flex-direction: column;
+    color: var(--color-White);
+    font-family: var(--font-family-primary);
+}
+
+
+.main-projeto h1{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+}
+
+.main-projeto p{
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-body);
+    font-weight: var(-font-weigh-body);
+    color: var(--color-Gray-1);
+}
+
+.btn-main{
+    display: flex;
+    gap: 20px;
+}
+
+.main-btn-1, .main-btn-2{
+    padding: 24px 14px;
+    border-radius: 14px;
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+    font-family: var(--font-family-primary);
+    text-decoration: none;
+}
+
+.main-btn-1{
+    background-color: var(--color-Green);
+    border: 0.8px solid var(--color-Gray-4);
+    border-radius: 40px;
+    color: var(--color-Gray-4);
+}
+
+.main-btn-2{
+    border: 0.8px solid var(--color-White);
+    border-radius: 40px;
+    color: var(--color-White);
 }
