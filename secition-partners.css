@@ -1,0 +1,26 @@
+@import url(./src/assets/styles/global.css);
+.parteners{
+    display: flex;
+    background-color: var(--color-Gray-4);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section-partners{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color:var(--color-Gray-4);
+}
+
+.section-partners p{
+    font-size: var(--font-size-caption);
+    color: var(--color-Gray-1); 
+}
+
+
+
+
